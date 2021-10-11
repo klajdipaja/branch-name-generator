@@ -1,0 +1,33 @@
+.home-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-layout-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+
+    & .load-ticket-data {
+    }
+
+    & .generate-branch {
+    }
+}
+
+.generated-branch {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+
+    .copy-icon {
+        color: #1890ff;
+    }
+}

@@ -1,0 +1,29 @@
+.ant-layout-header {
+    background: #fff;
+    display: table;
+}
+
+.ant-layout {
+    //    height: 100vh;
+    display: flex;
+}
+
+.ant-layout-content {
+    height: 100%;
+    padding: 20px 50px;
+
+    .ant-spin-spinning {
+        width: 100%;
+        margin: 12% auto auto;
+    }
+}
+
+.ant-layout-footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .ant-layout-footer {
+        padding: 5px 50px;
+    }
+}
