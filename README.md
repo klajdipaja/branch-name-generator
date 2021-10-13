@@ -47,15 +47,13 @@ customize it when you are ready for it.
 
 ## To use the extension
 
-You can add this extension in two modes:
-
-    1- Unpacked mode. To use this you first need to run `npm build` script to build the project. Then go at `chrome://extensions` and use `Load Unpacked` and in the browse directory select the `build` directory at the root of the project
-    
-    2. Packed Mode. Go at `chrome://extensions` and drag-and-drop the already packed `branch-name-generator.crx` file at the root of the project 
+You can add this extension by:
+1. Using unpacked mode. To use this you first need to run `npm build` script to build the project. Then go at `chrome://extensions` and use `Load Unpacked` and in the browse directory select the `build` directory at the root of the project
+2. Installing from [Chrome Web Store](https://chrome.google.com/webstore/detail/branch-name-generator/ponaigcolfgmjneppjpenfobcnkecmaohttps://chrome.google.com/webstore/detail/branch-name-generator/ponaigcolfgmjneppjpenfobcnkecmao)
 
 ## What this extension does
 
-It serveres as a helper mini tool to create a branch name in the following standart:
+It serves as a helper mini tool to create a branch name in the following standart:
 `[branch_type]/[project_code]-[ticket_number]_snake_case_version_for_the_Title_Of_The_ticket`
 Supported branch types are Feature/Bugfix/Hotfix
 
