@@ -49,7 +49,7 @@ customize it when you are ready for it.
 
 You can add this extension by:
 1. Using unpacked mode. To use this you first need to run `npm build` script to build the project. Then go at `chrome://extensions` and use `Load Unpacked` and in the browse directory select the `build` directory at the root of the project
-2. Installing from [Chrome Web Store](https://chrome.google.com/webstore/detail/branch-name-generator/ponaigcolfgmjneppjpenfobcnkecmaohttps://chrome.google.com/webstore/detail/branch-name-generator/ponaigcolfgmjneppjpenfobcnkecmao)
+2. Installing from [Chrome Web Store](https://chrome.google.com/webstore/detail/branch-name-generator/ponaigcolfgmjneppjpenfobcnkecmao)
 
 ## What this extension does
 
